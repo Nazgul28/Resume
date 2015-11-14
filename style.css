@@ -1,0 +1,478 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bold-webfont.woff') format('woff'),
+         url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('fonts/opensans-bolditalic-webfont.eot');
+    src: url('fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bolditalic-webfont.woff') format('woff'),
+         url('fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('fonts/opensans-italic-webfont.eot');
+    src: url('fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-italic-webfont.woff2') format('woff2'),
+         url('fonts/opensans-italic-webfont.woff') format('woff'),
+         url('fonts/opensans-italic-webfont.ttf') format('truetype'),
+         url('fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff'),
+         url('fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-style: normal;
+
+}
+
+/* Default */
+
+body {
+	font-family: 'open_sans';
+	font-size: 16px;
+	width: 840px;
+	border-color: #333;
+	margin: 0 auto;
+}
+
+/* HTML Header: 1st part - logo and name */
+
+header {
+	background: url("images/birds.jpg") no-repeat center center;
+	padding-top : 1rem; 
+    width: 100%;
+}
+
+.container1{ overflow: hidden;
+	font-family: 'open_sans';
+    width: 100%;
+}
+
+
+.wrapper0 {
+font-family: 'open_sans';
+padding-bottom: 75px;
+}
+
+.logo {text-align: center;
+}
+
+.name { text-align: center;}
+ 
+.profession	{text-align: center;
+}
+
+h1 {
+ 	color: white;
+ 	font-size: 40px;
+ 	font-weight: bold;
+	border-bottom: 1px solid #feaa3a;
+	padding-top: 10px;
+	padding-bottom:10px;
+	display: inline-block; 
+	
+}
+
+h2 { 
+	color: white;
+ 	font-size: 25px;
+    display: inline-block;
+    padding-top: 15px;
+    font-style: 100px;
+
+}
+
+a {
+	color: #feaa3a;
+}
+
+h3 {
+	 color: #feaa3a;
+}
+
+h4 {font-style: italic;
+	padding-bottom: 10px;
+
+}
+
+h6 {
+	color: white;
+}
+
+/* HTML Header: 2nd part - hello part */
+
+.tinter {
+	overflow: hidden;
+	background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)),
+   url('images/birds.jpg') fixed no-repeat center center,
+    #333;
+    padding: 2rem 2rem;
+}
+
+}
+.wrapper1 {
+	font-family: 'open_sans';
+    width: 100%;
+    padding: 180px 0 120px 0;
+
+  }
+
+
+ .hello { 
+ 	display: inline-block;
+ 	float: left;
+ 	width: 33%;
+ 	padding: 140 10 0 0;
+ 	padding-left: 3rem;
+ }
+
+.hellotext{
+	display: inline-block;
+	float:right;
+	color:white;
+	width: 60%;
+	padding: 120 24 30 0;
+}
+
+
+/* HTML Section 1: work experience part */
+
+.container2 {
+	overflow: hidden;
+    width: 100%;
+    font-family: 'open_sans';
+}
+
+.wrapper2 {
+	border-bottom: 0px solid black;
+	padding: 1.5rem;
+	overflow: hidden;
+	
+}
+
+.sectiontitle {
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	font-size: 25px;
+}
+
+h2 {
+	padding-bottom: 1rem;
+}
+
+
+.job1 {
+	overflow: hidden;
+	border-bottom: 1px solid;
+	border-width: thin;
+
+}
+
+.jobname { 
+	display: block;
+	width: 30%;
+	float: left;
+	line-height: 1.5rem;
+}
+
+.textjobname { 
+	display: block;
+	width: 70%;
+	float: right;
+	line-height: 1.5rem;
+}
+
+.wrapper2a {
+	overflow: hidden;
+	padding: 1.5rem;
+}
+	
+
+.job2 { 
+	display: block;
+	width: 30%;
+	float: left;
+	line-height: 1.5rem;
+}
+
+.textjob2 {
+	display: block;
+	width: 70%;
+	float: right;
+	line-height: 1.5rem;
+}
+
+
+ /* HTML Section 2 :skills part */
+.container3{
+	overflow: hidden;
+}
+
+.wrapper3 {
+	background-image: url("images/clouds.jpg");
+  background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)),
+   url('images/clouds.jpg') fixed no-repeat center center,
+    #333;
+	font-family: 'open_sans';
+	width: 100%;
+	overflow: hidden;
+}
+
+.skills {
+color: white;
+border-bottom: 1px solid;
+font-weight: bold;
+padding: 1rem;
+text-align: center;
+text-transform: uppercase;
+margin-left: 30px;
+margin-right: 30px;
+
+}
+
+.boxes {
+	color: white;
+	overflow: hidden;
+	padding: 2rem;
+	text-align: center;
+}
+
+
+.block1 {
+display: inline-block;
+float: left;  
+padding-right: 10px;
+padding-left: 2.5rem;
+}
+
+.block2 {
+display: inline-block;
+float:left; 
+padding-right: 1rem;
+}
+
+.block3 {
+display: inline-block;
+float: left; 
+}
+
+.block4 {
+display: inline-block;
+float: left;
+padding-left: 10px;
+}
+
+.block5{
+display: inline-block;
+float: left;
+padding-left: 10px;
+}
+
+.block6{
+display: inline-block;
+float: left;
+padding-left: 10px;
+}
+
+
+
+li {
+border: 3px solid #feaa3a;
+width: 100px;
+height:100px;
+border-radius: 50%;
+text-align: center;
+line-height: 100px;
+color: white;
+display: inline-block;
+}
+
+ 
+
+/* HTML Section 3: education part */
+.wrapper4 {
+font-family: 'open_sans';
+width: 100%;
+
+}
+
+.education {
+border-bottom: 1px solid;
+border-bottom-width: thin;
+font-weight: bold;
+padding-top: 1rem;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.red {
+margin-left: 30px;
+color: #feaa3a;
+padding-top: 1rem; 
+}
+
+.text {
+margin-left: 30px;
+margin-right: 30px;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+line-height: 1.5rem;
+}
+
+/* HTML Footer: Let's get connected part */
+
+footer {
+	background-color: black;
+	font-family: 'open_sans';
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.contacts {
+	color: white;
+	border-bottom: 1px solid;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.email { 
+color: #feaa3a;
+margin-left: 30px;
+padding-top: 1rem;
+}
+
+.address {
+color: white;
+line-height: 1rem;
+margin-left: 30px;
+padding-top: 1rem;
+padding-bottom: 1rem;
+
+} 
+
+.credits {
+color: white;
+font-size: 12px;
+margin-left: 30px;
+}
+
+.icons {
+	display: inline-block;
+	float: right;
+	font-size: 35px;
+	color: #feaa3a;
+	padding-top: 1rem;
+	margin-right: 30px;
+
+}
+
+
+/* breakdowns attempt - Tablet and mobile */ 
+
+/*@media only screen and (min-width: 768px){
+
+
+.Container { 
+		width: auto;
+		float: none;
+		margin: 0;
+	}
+
+.container2 {
+	width:auto;
+	float: none;
+	margin: 0;
+}
+
+.container3 {
+	width: auto;
+	float: none;
+	margin: 0;
+}
+
+.wrapper4 {
+	width:auto;
+	float: none;
+	margin: 0;
+}
+
+.container4{
+	width: auto;
+	float:none;
+	margin: 0
+}
+
+}
+
+@media only screen and (min-width: 375px) {
+
+.hello { 
+		width: auto;
+		float: none;
+		margin: 0;
+		padding: 140 10 0 0;
+	}
+
+.hellotext{
+float: none;
+padding: 400 30 25 0;
+
+
+}
+.container2 {
+	width:auto;
+	float: none;
+	margin: 0;
+}
+
+.container3 {
+	width: auto;
+	float: 50%;
+	margin: 0;
+}
+
+.wrapper4 {
+	width:auto;
+	float: none;
+	margin: 0;
+}
+
+.container4{
+	width: auto;
+	float:none;
+	margin: 0
+}
+
+
+}
+*/
+
+

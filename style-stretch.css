@@ -53,92 +53,93 @@
 /* Mobile */
 
 body {
-		font-family: 'open_sans';
-		font-size: 16px;
-		width: 100%;
-		border-color: #333;
-		margin: 0 auto;
-		background: green;
-	}
+	font-family: 'open_sans';
+	font-size: 16px;
+	width: 100%;
+	border-color: #333;
+	margin: 0 auto;
+}
 
-	header {
-		background: url("images/birds.jpg") no-repeat center center;
-		padding-top : 1rem; 
-		width: 100%;
-	}
+header {
+	background: url("images/birds.jpg") no-repeat center center;
+	padding-top : 1rem; 
+	width: 100%;
+}
 
-	.container1{ overflow: hidden;
-		font-family: 'open_sans';
-		width: 100%;
-	}
+.container1{ overflow: hidden;
+	font-family: 'open_sans';
+	width: 100%;
+}
 
 
-	.wrapper0 {
-		font-family: 'open_sans';
-		padding-bottom: 75px;
-	}
+.wrapper0 {
+	font-family: 'open_sans';
+	padding-bottom: 75px;
+}
 
-	.logo {text-align: center;
-	}
+.logo {text-align: center;
+}
 
-	.name { text-align: center;}
+.name { text-align: center;}
 
-	.profession	{text-align: center;
-	}
+.profession	{text-align: center;
+}
 
-	h1 {
-		color: white;
-		font-size: 40px;
-		font-weight: bold;
-		border-bottom: 1px solid #feaa3a;
-		padding-top: 10px;
-		padding-bottom:10px;
-		display: inline-block; 
+h1 {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	border-bottom: 1px solid #feaa3a;
+	padding-top: 10px;
+	padding-bottom:10px;
+	display: inline-block; 
 
-	}
+}
 
-	h2 { 
-		color: white;
-		font-size: 20px;
-		display: inline-block;
-		padding-top: 15px;
-		font-style: 100px;
+h2 { 
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	padding-top: 15px;
+	font-style: 100px;
 
-	}
+}
 
-	a {
-		color: #feaa3a;
-	}
+a {
+	color: #feaa3a;
+}
 
-	h3 {
-		color: #feaa3a;
-	}
+h3 {
+	color: #feaa3a;
+}
 
-	h4 {font-style: italic;
-		padding-bottom: 10px;
+h4 {font-style: italic;
+	padding-bottom: 10px;
 
-	}
+}
 
-	h6 {
-		color: white;
-		text-transform: uppercase;
-	}
+h6 {
+	color: white;
+	text-transform: uppercase;
+}
 
 /* HTML Header: 2nd part - hello part */
 
-	.tinter {
-		overflow: hidden;
-		background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)),
-		url('images/birds.jpg') fixed no-repeat center center,
-		#333;
-	}
+.tinter {
+	overflow: hidden;
+	background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)),
+	url('images/birds.jpg') fixed no-repeat center center,
+	#333;
+	text-align: center;
+	padding-top: 1.25rem;
+
+}
 
 }
 .wrapper1 {
 	font-family: 'open_sans';
 	width: 100%;
 	padding: 1rem 0px 0px 0px;
-	text-align: center;
 }
 
 
@@ -175,7 +176,7 @@ body {
 
 .wrapper2 {
 	border-bottom: 0px solid black;
-	padding: 1rem;
+	padding: 2rem;
 	overflow: hidden;
 	
 }
@@ -218,7 +219,7 @@ h2 {
 
 .wrapper2a {
 	overflow: hidden;
-	padding: 1rem;
+	padding: 2rem;
 	display: flex;
 }
 
@@ -270,6 +271,7 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
+	text-align: center;
 }
 
 
@@ -313,11 +315,11 @@ h2 {
 
 li {
 	border: 3px solid #feaa3a;
-	width: 100px;
-	height:100px;
+	width: 80px;
+	height:80px;
 	border-radius: 50%;
 	text-align: center;
-	line-height: 100px;
+	line-height: 80px;
 	color: white;
 	display: inline-block;
 }
@@ -400,6 +402,7 @@ footer {
 	color: #feaa3a;
 	padding: 1rem 0px 0px 2rem;
 	margin: 0 auto;
+	font-size: 1.5rem;
 
 }
 
@@ -408,20 +411,87 @@ footer {
 
 /* Tablet and up */
 @media screen and (min-width: 600px) {
-	.container2{
-		background-color: red;
+	
 
-}
-}
-
-
-@media screen and (min-width: 840px) {
-	.container2{
-		background-color: blue;
+	.wrapper1{
+		display: flex;
 	}
 
-   /* Sections */
-   }
+	.hello{
+		width: 50%;
+		padding-top: 1.5rem;
+	}
+
+	.hello img{
+		width: 70%;
+	}
+
+	.hellotext{
+		width: 50%;
+		padding-right: 1rem;
+		line-height: 2rem;
+
+	}
+
+	.boxes {
+		color: white;
+		overflow: hidden;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		text-align: center;
+		padding: 1rem;
+	}
+
+	li{
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+	}
+
+	.icons{
+		float: right;
+		padding-right: 2rem;
+		font-size: 2rem;
+	}
+
+}
+
+/* Desktop and up */
+
+@media screen and (min-width: 840px) {
+	
+	h2{
+		font-size: 25px;
+	}
+
+	.wrapper1{
+		padding-bottom: 2rem;
+	}
+
+	.hello {
+		width:35%;
+	}
+
+	.hello img{
+		width: 60%;
+	}
+
+	.boxes{
+		padding: 2rem;
+	}
+
+	li{
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+	}
+
+	.icons{
+		font-size: 3rem;
+	}
+
+}
 
 
 

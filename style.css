@@ -53,88 +53,88 @@
 /* Desktop version - 1st approach (w/ float) */
 
 body {
-		font-family: 'open_sans';
-		font-size: 16px;
-		width: 840px;
-		border-color: #333;
-		margin: 0 auto;
-		background: white;
-	}
+	font-family: 'open_sans';
+	font-size: 16px;
+	width: 840px;
+	border-color: #333;
+	margin: 0 auto;
+	background: white;
+}
 
 /* HTML Header: 1st part - logo and name */
 
-	header {
-		background: url("images/birds.jpg") no-repeat center center;
-		padding-top : 1rem; 
-		width: 100%;
-	}
+header {
+	background: url("images/birds.jpg") no-repeat center center;
+	padding-top : 1rem; 
+	width: 100%;
+}
 
-	.container1{ overflow: hidden;
-		font-family: 'open_sans';
-		width: 100%;
-	}
+.container1{ overflow: hidden;
+	font-family: 'open_sans';
+	width: 100%;
+}
 
 
-	.wrapper0 {
-		font-family: 'open_sans';
-		padding-bottom: 75px;
-	}
+.wrapper0 {
+	font-family: 'open_sans';
+	padding-bottom: 75px;
+}
 
-	.logo {text-align: center;
-	}
+.logo {text-align: center;
+}
 
-	.name { text-align: center;}
+.name { text-align: center;}
 
-	.profession	{text-align: center;
-	}
+.profession	{text-align: center;
+}
 
-	h1 {
-		color: white;
-		font-size: 40px;
-		font-weight: bold;
-		border-bottom: 1px solid #feaa3a;
-		padding-top: 10px;
-		padding-bottom:10px;
-		display: inline-block; 
+h1 {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	border-bottom: 1px solid #feaa3a;
+	padding-top: 10px;
+	padding-bottom:10px;
+	display: inline-block; 
 
-	}
+}
 
-	h2 { 
-		color: white;
-		font-size: 25px;
-		display: inline-block;
-		padding-top: 15px;
-		font-style: 100px;
+h2 { 
+	color: white;
+	font-size: 25px;
+	display: inline-block;
+	padding-top: 15px;
+	font-style: 100px;
 
-	}
+}
 
-	a {
-		color: #feaa3a;
-	}
+a {
+	color: #feaa3a;
+}
 
-	h3 {
-		color: #feaa3a;
-	}
+h3 {
+	color: #feaa3a;
+}
 
-	h4 {font-style: italic;
-		padding-bottom: 10px;
+h4 {font-style: italic;
+	padding-bottom: 10px;
 
-	}
+}
 
-	h6 {
-		color: white;
-		text-transform: uppercase;
-	}
+h6 {
+	color: white;
+	text-transform: uppercase;
+}
 
 /* HTML Header: 2nd part - hello part */
 
-	.tinter {
-		overflow: hidden;
-		background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)),
-		url('images/birds.jpg') fixed no-repeat center center,
-		#333;
-		padding: 2rem 2rem;
-	}
+.tinter {
+	overflow: hidden;
+	background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)),
+	url('images/birds.jpg') fixed no-repeat center center,
+	#333;
+	padding: 2rem 2rem;
+}
 
 }
 .wrapper1 {
